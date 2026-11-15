@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — The 1%</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+    max-width: 760px;
+    margin-inline: auto;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #8ab4f8; }
+    h1, h2 { color: #ffffff; }
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .meta { color: #666; font-size: 0.95rem; margin-bottom: 2rem; }
+  @media (prefers-color-scheme: dark) { .meta { color: #aaa; } }
+  ul { padding-left: 1.25rem; }
+  nav { margin-bottom: 2rem; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<nav><a href="index.html">&larr; Back</a> &nbsp;|&nbsp; <a href="terms.html">Terms and Conditions</a></nav>
+
+<h1>Privacy Policy — The 1%</h1>
+<p class="meta">App name: The 1%<br>Contact email: thepioneeringmindset@gmail.com</p>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy explains how the developer of The 1% ("we", "us", or "our") handles information in connection with The 1% mobile application ("App").</p>
+<p>The App is designed to store your information locally on your own device. We do not operate servers for the App and do not receive, access, or store your App data remotely.</p>
+
+<h2>2. Information stored in the App</h2>
+<p>When you use the App, the following information may be stored locally on your device:</p>
+<ul>
+  <li>Goals, descriptions, notes, categories, deadlines, and progress</li>
+  <li>Tasks, task tags, planner entries, calendar events, and event locations</li>
+  <li>Habit names, descriptions, categories, completion logs, pauses, and reasons</li>
+  <li>Journal entries, mood tags, hashtags, and gratitude answers</li>
+  <li>Relaxation-session information, including mood selections and optional notes</li>
+  <li>Pomodoro/focus-session records</li>
+  <li>Reminders and notification settings</li>
+  <li>Gamification information, including XP, coins, levels, streaks, quests, and progression</li>
+  <li>App settings, theme preferences, and an optional display name</li>
+</ul>
+<p>This information is created and controlled by you. We do not claim ownership of your personal content.</p>
+
+<h2>3. No accounts or servers</h2>
+<p>The App does not require an account, sign-in, email address, phone number, or payment details.</p>
+<p>We do not operate a backend, cloud database, cloud-sync service, analytics service, advertising service, or crash-reporting service.</p>
+<p>Because we do not operate servers, we cannot access, view, recover, restore, or transfer your App data.</p>
+
+<h2>4. How your information is stored</h2>
+<p>Your App data is stored locally on your device in an encrypted SQLite database using SQLCipher.</p>
+<p>The database encryption key is derived from a passphrase that you create using Argon2id. Your passphrase itself is not stored by the App.</p>
+<p>A non-secret salt and verifier may be stored in your device's secure storage to support passphrase verification. A derived database key may also be temporarily cached on your device for up to 10 minutes to avoid repeatedly deriving it when you reopen the App.</p>
+
+<h2>5. Passphrase loss and data recovery</h2>
+<p>If you forget your passphrase, there is no recovery mechanism.</p>
+<p>Because your data is encrypted locally and we do not have access to your device or passphrase, we cannot recover your data if you lose your passphrase.</p>
+<p>Your data may also be permanently lost if you:</p>
+<ul>
+  <li>Delete all data using the in-app deletion feature</li>
+  <li>Uninstall the App</li>
+  <li>Reset or erase your device</li>
+  <li>Lose access to your device</li>
+  <li>Experience device failure or corruption</li>
+</ul>
+<p>You are responsible for keeping your passphrase safe and maintaining your own backups where your device provides backup options.</p>
+
+<h2>6. Microphone and speech recognition</h2>
+<p>The App may request microphone permission to allow voice dictation into text fields, such as habits, goals, tasks, journal entries, planner entries, and reminders.</p>
+<p>The App itself does not record, store, or transmit your voice.</p>
+<p>Voice dictation uses your device's built-in speech-recognition service. Depending on your device and operating system, speech recognition may be processed entirely on your device or by Apple's or Google's own speech-recognition service.</p>
+<p>That processing occurs outside the App and outside our control. It is governed by Apple's or Google's own privacy practices.</p>
+<p>You can decline microphone permission. You can still use the App by typing, but voice dictation will not be available.</p>
+
+<h2>7. Audio and text-to-speech</h2>
+<p>The App includes locally stored ambient audio and optional spoken guidance using your device's text-to-speech function.</p>
+<p>These features operate locally on your device. The App does not send your audio, text, or usage information to us.</p>
+
+<h2>8. Device backups</h2>
+<p>On Android, the App disables Android Auto Backup, ADB backup, and device-to-device transfer for its local data.</p>
+<p>On iOS, the App marks its encrypted database file as excluded from iCloud, iTunes, and Finder backups.</p>
+<p>Device-level services, including Apple Keychain, may have separate backup behaviour that is controlled by your device and operating system.</p>
+
+<h2>9. Deleting your information</h2>
+<p>You can permanently delete your locally stored App data by using the Delete all data option in the App's Settings.</p>
+<p>This deletes:</p>
+<ul>
+  <li>The encrypted local database</li>
+  <li>Secure-storage entries</li>
+  <li>App preferences</li>
+  <li>Related locally stored App data</li>
+</ul>
+<p>This action is permanent and cannot be undone.</p>
+<p>You can also delete your data by uninstalling the App, subject to your device's backup and operating-system behaviour.</p>
+
+<h2>10. Third-party services</h2>
+<p>The App does not integrate third-party analytics, advertising, crash-reporting, cloud-storage, or software-as-a-service providers.</p>
+<p>The App uses third-party software packages for functions such as encrypted local storage, local databases, secure storage, fonts, charts, audio playback, text-to-speech, and speech recognition. These packages operate within the App and are subject to their own licences.</p>
+
+<h2>11. Overseas disclosure</h2>
+<p>We do not disclose your App data to overseas recipients because we do not receive, store, or transmit your App data.</p>
+<p>However, depending on your device and operating system, Apple or Google may process speech-recognition audio outside Australia through their own services. This is outside our control and is governed by their privacy policies.</p>
+
+<h2>12. Access and correction</h2>
+<p>Because your App data is stored locally on your device, you can access and correct it directly within the App.</p>
+<p>You can edit goals, habits, tasks, journal entries, planner entries, reminders, and other information you create.</p>
+<p>You can delete all locally stored App data using the Delete all data option in Settings or by uninstalling the App.</p>
+
+<h2>13. Children and privacy</h2>
+<p>The App is intended for users aged approximately 15 to 25 but may be used by other ages.</p>
+<p>You must be at least 13 years old to use the App. If you are under 18, it is recommended (but not required) that you have the permission of a parent or guardian before using the App.</p>
+<p>The App does not require an account and does not send personal information to us.</p>
+
+<h2>14. Changes to this policy</h2>
+<p>We may update this Privacy Policy from time to time.</p>
+<p>If we make material changes, we will take reasonable steps to notify you, such as through an in-app notice, app-store release notes, or an updated effective date.</p>
+
+<h2>15. Complaints and contact</h2>
+<p>If you have a question, concern, or complaint about privacy, contact us at:</p>
+<p>Email: thepioneeringmindset@gmail.com<br>Location: Australia</p>
+<p>We will take your complaint seriously and respond within a reasonable time.</p>
+
+</body>
+</html>
